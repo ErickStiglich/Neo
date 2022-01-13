@@ -6,7 +6,149 @@
     @return map-get($font-weights , $weight-name)
 };
 
-@mixin name {
-    
+@mixin redesSociales {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
 }
 
+.card-img-top{
+    width: 700px;
+    height: 500px;
+    margin-bottom: 6px;
+    box-sizing: border-box;
+ }
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  
+ .col{
+    float: left;
+    padding: 15px;
+  }
+  
+  html {
+    background: whitesmoke;
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+.card {
+   margin-bottom: 6px;
+ }
+  .header {
+    background-color: $primary-color;
+    color: #ffffff;
+    padding: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .aside {
+    background-color: #0b2f3a;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .footer {
+    background-color: #0b2f3a;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+  }
+
+  
+  
+  a:hover, a:active {
+    background-color: #B22222;
+  }
+
+  #vermas:hover, a:active {
+    background-color: #B22222;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;  
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+  }
+  
+  
+  .fa-instagram {
+    background: hotpink;
+  }
+
+
+  #vermas {
+    background-color: $primary-color;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+   
+  //For mobile phones
+  .col {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    //For tablets
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    //For desktop
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  
