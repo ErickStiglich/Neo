@@ -1,3 +1,4 @@
-#cosas para ignorar (indicar ruta)
 /Proyectox.html
-/sass
+/sass/style.scss
+/sass/_variables.scss
+/sass/_resets.scss

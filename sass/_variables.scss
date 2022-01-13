@@ -8,7 +8,18 @@ $font-weights:(
     "regular":400,
     "medium" :500,
     "bold"   :700
-)
+);
+
+//Mixins
+@mixin redesSociales {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+}
 
 
 

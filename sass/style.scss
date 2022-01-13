@@ -6,15 +6,6 @@
     @return map-get($font-weights , $weight-name)
 };
 
-@mixin redesSociales {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    color: white;
-}
 
 .card-img-top{
     width: 700px;
