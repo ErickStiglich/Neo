@@ -1,28 +1,14 @@
 @import './resets';
 @import './variables';
+@import './mixins';
 
 
-@function weight($weight-name){
-    @return map-get($font-weights , $weight-name)
-};
 
-@mixin redesSociales ($fondo){
-    background-color: $fondo;
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    color: $secondary-color;
-}
-
-.card-img-top{
+ .card-img-top {
     width: 700px;
     height: 500px;
     margin-bottom: 6px;
-}
-
+ }
 
  .col{
     float: left;
@@ -34,9 +20,9 @@
     font-family: "Lucida Sans", sans-serif;
   }
   
-.card {
+ .card {
    margin-bottom: 6px;
- }
+  }
   .header {
     background-color: $primary-color;
     color: $secondary-color;
