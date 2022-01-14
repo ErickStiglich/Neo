@@ -1,13 +1,7 @@
 .card-img-top {
   width: 700px;
   height: 500px;
-  margin-bottom: 6px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+  margin-bottom: 6px; }
 
 .col {
   float: left;
@@ -26,14 +20,8 @@ html {
   padding: 2px;
   margin-bottom: 10px; }
 
-.aside {
-  background-color: #0b2f3a;
-  padding: 15px;
-  color: #ffffff;
-  text-align: center;
-  font-size: 14px;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+#ni {
+  color: whitesmoke; }
 
 .footer {
   background-color: #0b2f3a;
@@ -48,7 +36,11 @@ a:hover, a:active {
 #vermas:hover, a:active {
   background-color: #B22222; }
 
-.fa {
+.fa:hover {
+  opacity: 0.7; }
+
+.fa-facebook {
+  background-color: #3B5998;
   padding: 20px;
   font-size: 30px;
   width: 50px;
@@ -57,17 +49,25 @@ a:hover, a:active {
   margin: 5px 2px;
   color: white; }
 
-.fa:hover {
-  opacity: 0.7; }
-
-.fa-facebook {
-  background: #3B5998; }
-
 .fa-twitter {
-  background: #55ACEE; }
+  background-color: #55ACEE;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white; }
 
 .fa-instagram {
-  background: hotpink; }
+  background-color: hotpink;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white; }
 
 #vermas {
   background-color: #32CD32;
