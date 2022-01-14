@@ -47,7 +47,7 @@ a:hover, a:active {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  color: white; }
+  color: #ffffff; }
 
 .fa-twitter {
   background-color: #55ACEE;
@@ -57,7 +57,7 @@ a:hover, a:active {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  color: white; }
+  color: #ffffff; }
 
 .fa-instagram {
   background-color: hotpink;
@@ -67,11 +67,11 @@ a:hover, a:active {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  color: white; }
+  color: #ffffff; }
 
 #vermas {
   background-color: #32CD32;
-  color: white;
+  color: #ffffff;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;

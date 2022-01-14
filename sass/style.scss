@@ -14,7 +14,7 @@
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    color: white;
+    color: $secondary-color;
 }
 
 .card-img-top{
@@ -30,7 +30,7 @@
   }
   
   html {
-    background: whitesmoke;
+    background: $accent-color;
     font-family: "Lucida Sans", sans-serif;
   }
   
@@ -39,18 +39,18 @@
  }
   .header {
     background-color: $primary-color;
-    color: #ffffff;
+    color: $secondary-color;
     padding: 2px;
     margin-bottom: 10px;
   }
   
   #ni {
-      color: whitesmoke;
+      color: $accent-color;
   }
   
   .footer {
-    background-color: #0b2f3a;
-    color: #ffffff;
+    background-color: $footer-color;
+    color: $secondary-color;
     text-align: center;
     font-size: 12px;
     padding: 15px;
@@ -59,11 +59,11 @@
   
   
   a:hover, a:active {
-    background-color: #B22222;
+    background-color: $hover-color;
   }
 
   #vermas:hover, a:active {
-    background-color: #B22222;
+    background-color: $hover-color;
   }
 
   
@@ -87,7 +87,7 @@
 
   #vermas {
     background-color: $primary-color;
-    color: white;
+    color: $secondary-color;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
